@@ -2,6 +2,8 @@
 user_input = input("Enter a string: ")
 
 # Initialize an empty string 'uppercase_text' to store the result.
+uppercase_text = ""
+
 # Loop through each character in user input.
 # If the character is a lowercase letter (between 'a' and 'z'):
 #    Convert it to uppercase by subtracting 32 from its ASCII value.
