@@ -8,5 +8,9 @@ index = len(user_input) - 1
 # Check for trailing spaces
 while index >= 0 and user_input[index] == ' ':
     index -= 1
+
 # Return the string without trailing spaces
+rstripped_string = user_input[:index + 1]
+
 # Print the result without trailing spaces
+print(rstripped_string)
