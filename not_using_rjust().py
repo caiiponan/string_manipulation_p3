@@ -8,4 +8,6 @@ width = int(input("Enter the width: "))
 space_length = width - len(user_input)
 
 # Add spaces to the left to fit width given
+if space_length > 0:
+    user_input = " " * space_length + user_input
 # Print result with added spaces
