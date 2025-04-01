@@ -11,3 +11,4 @@ space_length = width - len(user_input)
 if space_length > 0:
     user_input = " " * space_length + user_input
 # Print result with added spaces
+print(user_input)
