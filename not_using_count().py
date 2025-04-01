@@ -11,3 +11,4 @@ for i in range(len(user_input) - len(substring) + 1):
 # Increment count if found
         count += 1
 # Print the count of occurrences of the substring
+print(count)
