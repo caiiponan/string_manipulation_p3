@@ -7,4 +7,7 @@ width = int(input("Enter the width: "))
 padding_length = width - len(user_input)
 
 # If padding is needed, add spaces to the left to fit width given
+if padding_length > 0:
+    user_input = "0" * padding_length + user_input
+    
 # Print result with added zeroes
