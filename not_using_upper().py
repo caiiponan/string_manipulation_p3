@@ -12,3 +12,4 @@ for char in user_input:
         uppercase_text += char# Append it to 'uppercase_text' as it is.
 
 # Print the original and uppercase converted strings.
+print(uppercase_text)
