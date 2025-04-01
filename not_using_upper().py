@@ -1,6 +1,6 @@
-# Define a string 's' with some lowercase letters.
+# Let user input a string
 # Initialize an empty string 'uppercase_text' to store the result.
-# Loop through each character in 's'.
+# Loop through each character in user input.
 # If the character is a lowercase letter (between 'a' and 'z'):
 #    Convert it to uppercase by subtracting 32 from its ASCII value.
 #    Append the converted character to 'uppercase_text'.
