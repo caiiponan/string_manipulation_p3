@@ -5,6 +5,11 @@ substring = input("Enter the substring to find: ")
 
 # Initialize default index to -1
 index = -1
+
 # Loop through the string to find the substring
+for i in range(len(user_input) - len(substring), -1, -1):
 # Check if the substring is found
+    if user_input[i:i + len(substring)] == substring:
+        index = i
+        break
 # Print the index of the last occurence of the substring
