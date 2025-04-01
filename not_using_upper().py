@@ -8,7 +8,7 @@ uppercase_text = ""
 for char in user_input:
     if 'a' <= char <= 'z':# If the character is a lowercase letter (between 'a' and 'z')
         uppercase_text += chr(ord(char) - 32) # Convert it to uppercase by subtracting 32 from its ASCII value.
-#    Append the converted character to 'uppercase_text'.
-# If the character is not a lowercase letter:
-#    Append it to 'uppercase_text' as it is.
+    else: # If the character is not a lowercase letter:
+        uppercase_text += char# Append it to 'uppercase_text' as it is.
+
 # Print the original and uppercase converted strings.
