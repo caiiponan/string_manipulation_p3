@@ -5,6 +5,5 @@ for char in user_input: # Iterate over each character in user input.
     if "A" <= char <= "Z": # Check if the character is an uppercase letter (between 'A' and 'Z')
         is_lowercase = False # is_lowercase = False if any character is uppercase.
         break
-    else:
-        is_lowercase = True # is_lowercase = True if every character is lowercase
-    print(is_lowercase) # Print the result of the check.
+
+print(is_lowercase) # Print the result of the check.
