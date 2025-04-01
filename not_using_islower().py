@@ -7,3 +7,4 @@ for char in user_input: # Iterate over each character in user input.
         break
     else:
         is_lowercase = True # is_lowercase = True if every character is lowercase
+    print(is_lowercase) # Print the result of the check.
