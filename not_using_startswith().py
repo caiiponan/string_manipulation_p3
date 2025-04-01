@@ -16,3 +16,4 @@ for i in range(len(prefix)):
         starts_with = False
         break
 # Print result
+print(starts_with)
