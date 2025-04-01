@@ -13,3 +13,4 @@ for i in range(len(user_input) - len(substring), -1, -1):
         index = i
         break
 # Print the index of the last occurence of the substring
+print(index)
