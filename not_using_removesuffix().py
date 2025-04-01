@@ -9,3 +9,4 @@ if user_input.endswith(remove_suffix):
     result = user_input[:len(user_input) - len(remove_suffix)]
 
 # Print result with removed suffix
+print(result)
