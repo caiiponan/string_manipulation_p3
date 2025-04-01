@@ -1,4 +1,6 @@
 # Let user input a string
+user_input = input("Enter a string: ")
+
 # Initialize an empty string 'uppercase_text' to store the result.
 # Loop through each character in user input.
 # If the character is a lowercase letter (between 'a' and 'z'):
